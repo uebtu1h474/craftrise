@@ -92,6 +92,6 @@
         "javaURL": "https:\/\/client.craftrise.network\/api\/launcher\/launcher.json",
         "javaType": "jdk",
         "launcherURL": "http:\/\/client.craftrise.network\/api\/launcher\/files\/409aacc3ff533a14bacb8dece55dc3fa999d8eca.jar",
-        "startArguments": "-Xmx%selectedRAM%M -javaagent:sonoyuncu.jar -Djava.net.preferIPv4Stack=true -XX:+DisableAttachMechanism -Dcom.ibm.tools.attach.enable=no -Xmn128M"
+        "startArguments": "-Xmx%selectedRAM%M -Djava.net.preferIPv4Stack=true -XX:-DisableAttachMechanism -Dcom.ibm.tools.attach.enable=no -Xmn128M"
     }
 }
